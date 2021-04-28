@@ -79,9 +79,21 @@
 				<artifactId>mail</artifactId>
 				<version>1.4</version>
 			</dependency>
+
+			<!-- 本地项目工程 -->
 			<dependency>
 				<groupId>com.2501.component</groupId>
 				<artifactId>controller-advice</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.2501.common</groupId>
+				<artifactId>common-component</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.2501.sql</groupId>
+				<artifactId>sql-handle-api</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
